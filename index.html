@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pinterest - Héctor</title>
 </head>
 <body>
-    
+    <nav class="navbar">
+        <div class="nav-combo-items">
+            <div class="nav-item logo">
+                <img src="./img/template/pinterest-icon.png" alt="Pinterest logo" width="25px" height="25px">
+            </div>
+            <div class="nav-item btn-inicio">
+                <a href="#">Inicio</a>
+            </div>
+            <div class="nav-item btn-hoy">
+                <a href="#">Hoy</a>
+            </div>
+        </div>
+        <div class="nav-combo-items">
+            <div class="nav-item input-busqueda">
+                <div class="busqueda__lupa">
+                    <img src="./img/template/search-icon.png" alt="Icono lupa" width="25px" height="25px">
+                </div>
+                <div class="busqueda__input">
+                    <input type="text" placeholder="Buscar">
+                </div>
+            </div>
+        </div>
+        <div class="nav-combo-items">
+            <div class="nav-item btn-notificaciones">
+                <img src="./img/template/notification-bell-icon.png" alt="Notificaciones" width="25px" height="25px">
+            </div>
+            <div class="nav-item btn-mensajes">
+                <img src="./img/template/message-icon.png" alt="Mensajes" width="25px" height="25px">
+            </div>
+            <div class="nav-item btn-avatar">
+                <img src="./img/template/user-avatar.png" alt="Avatar" width="25px" height="25px">
+            </div>
+            <div class="nav-item btn-opciones">
+                <img src="./img/template/arrow-down.png" alt="Opciones" width="25px" height="25px">
+            </div>
+        </div>
+    </nav>
+    <main class="galeria">
+        <div class="card">
+            <img src="./img/cards/01.jpeg" alt="01 Imagen" width="320px">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" width="15px" height="15px" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" width="15px" height="15px" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

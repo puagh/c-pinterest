@@ -1,0 +1,149 @@
+html {
+    font-size: 62.5%; /** 1REM = 10pX **/
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    background-color: coral;
+}
+
+h2{
+    margin: 0;
+}
+
+/* Generales */
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    top: 0;
+    width: 100%;
+    height: 4.8rem;
+    position: fixed;
+}
+
+.nav-combo-items{
+    display: flex;
+
+}
+
+.input-busqueda{
+    display: flex;
+}
+
+/* Galería */
+.galeria{
+    margin: 5rem 1.6rem 0 1.6rem;
+    
+}
+
+/* Cards */
+.card{
+    width: 320px;
+    background-color: darkgoldenrod;
+    position: relative;
+
+    
+}
+
+.card img{
+    border-radius: 2.5rem;
+
+    
+}
+
+.card:hover{
+    opacity: 0.5;
+}
+
+.contenido-hover{
+    width: 320px;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(20, 20, 20, 0.6);
+    border-radius: 2.5rem;
+    z-index: 10;
+}
+
+.contenido-hover:hover{
+    /* visibility: hidden; */
+    
+}
+
+.row-superior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 1.4rem 0 1.4rem;
+}
+
+.categoria-card{
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.icono-categoria{
+    width: 1.2rem;
+    height: 1.2rem;
+    display: inline-flex;
+    margin-left: 0.5rem;
+}
+
+.container-btn-guardar{
+    background-color: rgb(221, 0 ,27);
+    border-radius: 2.4rem;
+    padding: 1rem 2rem;
+}
+
+.container-btn-guardar:hover{
+    background-color: rgb(154, 0, 22);
+}
+
+.btn-guardar{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.icono-categoria{
+    display: inline-block;
+}
+
+.row-inferior{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin: 0 1.4rem 1.4rem 0;
+}
+
+.container-bottom-btns{
+    background-color: rgb(223, 223, 223);
+    padding: 1.1rem;
+    border-radius: 2rem;
+}
