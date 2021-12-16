@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/template/pinterest-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <title>Pinterest - Héctor</title>
 </head>
@@ -14,43 +15,46 @@
     <nav class="navbar">
         <div class="nav-combo-items">
             <div class="nav-item logo">
-                <img src="./img/template/pinterest-icon.png" alt="Pinterest logo" width="25px" height="25px">
+                <img src="./img/template/pinterest-icon.png" alt="Pinterest logo">
             </div>
             <div class="nav-item btn-inicio">
-                <a href="#">Inicio</a>
+                <a href="#">Inicio 
+                    <span class="inicio_flecha"><img src="./img/template/arrow-down.png" alt="Opciones para el menu"></span>
+                </a>
             </div>
             <div class="nav-item btn-hoy">
                 <a href="#">Hoy</a>
             </div>
         </div>
-        <div class="nav-combo-items">
+        <div class="nav-combo-items container-busqueda">
             <div class="nav-item input-busqueda">
-                <div class="busqueda__lupa">
-                    <img src="./img/template/search-icon.png" alt="Icono lupa" width="25px" height="25px">
+                <div class="busqueda-lupa">
+                    <img src="./img/template/search-icon.png" alt="Icono lupa">
                 </div>
-                <div class="busqueda__input">
+                <div class="busqueda-input">
                     <input type="text" placeholder="Buscar">
                 </div>
             </div>
         </div>
         <div class="nav-combo-items">
             <div class="nav-item btn-notificaciones">
-                <img src="./img/template/notification-bell-icon.png" alt="Notificaciones" width="25px" height="25px">
+                <img src="./img/template/notification-bell-icon.png" alt="Notificaciones">
             </div>
             <div class="nav-item btn-mensajes">
-                <img src="./img/template/message-icon.png" alt="Mensajes" width="25px" height="25px">
+                <img src="./img/template/message-icon.png" alt="Mensajes">
             </div>
             <div class="nav-item btn-avatar">
-                <img src="./img/template/user-avatar.png" alt="Avatar" width="25px" height="25px">
+                <img src="./img/template/user-avatar.png" alt="Avatar">
             </div>
             <div class="nav-item btn-opciones">
-                <img src="./img/template/arrow-down.png" alt="Opciones" width="25px" height="25px">
+                <img src="./img/template/arrow-down.png" alt="Opciones">
             </div>
         </div>
     </nav>
     <main class="galeria">
+        <!--  *********************************** CARD ***********************************************-->
         <div class="card">
-            <img src="./img/cards/01.jpeg" alt="01 Imagen" width="320px">
+            <img src="./img/cards/01.jpeg" alt="01 Imagen">
             <div class="contenido-hover">
                 <div class="row-superior">
                     <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
@@ -61,12 +65,603 @@
                 <div class="row-inferior">
                     <div class="container-bottom-btns">
                         <a href="#" class="a-share-btn">
-                            <img src="./img/cards-buttons/share-icon.png" width="15px" height="15px" alt="share icon">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
                         </a>
                     </div>
                     <div class="container-bottom-btns">
                         <a href="#" class="a-more-btn">
-                            <img src="./img/cards-buttons/more-icon.png" width="15px" height="15px" alt="more icon">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  ********************************** END CARD ********************************************-->
+        
+        <div class="card">
+            <img src="./img/cards/02.jpeg" alt="02 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/cards/03.jpeg" alt="03 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/cards/04.png" alt="04 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/cards/05.jpeg" alt="05 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/cards/06.jpeg" alt="06 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/cards/07.jpeg" alt="07 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/cards/08.jpeg" alt="08 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/cards/09.jpeg" alt="09 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/cards/10.png" alt="10 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/cards/11.jpeg" alt="11 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/cards/12.jpeg" alt="12 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/cards/13.webp" alt="13 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/cards/14.jpeg" alt="14 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/cards/15.jpeg" alt="15 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/cards/16.jpeg" alt="16 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/cards/17.jpeg" alt="17 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/cards/18.jpeg" alt="18 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/cards/19.png" alt="19 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/cards/20.png" alt="20 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/cards/21.png" alt="21 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/cards/22.jpeg" alt="22 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/cards/23.jpeg" alt="23 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/cards/24.jpeg" alt="24 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/cards/25.png" alt="25 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/cards/26.jpeg" alt="26 Imagen">
+            <div class="contenido-hover">
+                <div class="row-superior">
+                    <h2 class="categoria-card">Estilo de... <span class="icono-categoria"><img src="./img/template/arrow-down-white.png" alt="Opciones"></span></h2>
+                    <div class="container-btn-guardar">
+                        <a class="btn-guardar" href="#">Guardar</a>
+                    </div>
+                </div>
+                <div class="row-inferior">
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-share-btn">
+                            <img src="./img/cards-buttons/share-icon.png" alt="share icon">
+                        </a>
+                    </div>
+                    <div class="container-bottom-btns">
+                        <a href="#" class="a-more-btn">
+                            <img src="./img/cards-buttons/more-icon.png" alt="more icon">
                         </a>
                     </div>
                 </div>
